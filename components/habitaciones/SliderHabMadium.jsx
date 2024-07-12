@@ -73,15 +73,13 @@ const SliderHabMedium = () => {
     (entry) => entry.title === "SUPERIOR"
   );
 
-  const imagesFirstCarousel = habSmallContentData.imagesCollection.items.slice(
+  const imagesFirstCarousel = habMediumContentData.imagesCollection.items.slice(
     0,
     3
   );
-  const imagesSecondCarousel = habSmallContentData.imagesCollection.items.slice(
-    3,
-    6
-  );
-  const imagesMobile = habSmallContentData.imagesCollection.items.slice(0, 6);
+  const imagesSecondCarousel =
+    habMediumContentData.imagesCollection.items.slice(3, 6);
+  const imagesMobile = habMediumContentData.imagesCollection.items.slice(0, 6);
 
   return (
     <section className="overflow-y-auto">
