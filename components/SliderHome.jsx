@@ -31,7 +31,7 @@ import { getAllHomePageContent } from "@/lib/api";
 const SliderHome = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [homeContent, setHomeContent] = useState([]);
-  const [isLoading, setIsLoading] = useState(true); 
+  const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
     const handleResize = () => {
@@ -93,7 +93,7 @@ const SliderHome = () => {
           <div className="relative w-full h-full ">
             <div className="absolute inset-0 p-1 bg-black opacity-20 z-10"></div>
             <Image
-              src="/images/home.jpg"
+              src="/images/mediumcarrousel2.webp"
               alt="Fachada Heiss"
               fill
               style={{ objectFit: "cover" }}
