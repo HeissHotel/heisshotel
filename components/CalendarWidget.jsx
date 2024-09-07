@@ -36,7 +36,7 @@ export function CalendarWidget() {
     setEndDate(ranges.selection.endDate);
   };
 
-  const defaultStartDate = new Date(2024, 7, 27); // 10 de agosto de 2024
+  const defaultStartDate = new Date();
   const currentDate = new Date();
   currentDate.setDate(currentDate.getDate() + 1);
 
